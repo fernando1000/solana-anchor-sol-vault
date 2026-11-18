@@ -1,0 +1,10 @@
+{
+  "idl": "../target/idl/sol_vault.json",
+  "before": [],
+  "scripts": {
+    "js": {
+      "from": "@codama/renderers-js",
+      "args": [".", { "syncPackageJson": false, "kitImportStrategy": "rootOnly", "erasableSyntax": true }]
+    }
+  }
+}
